@@ -1,12 +1,12 @@
-const REQ = require('request');
+const REQ = require("request");
 
 const options = {
-	url: 'http://dummy.restapiexample.com/api/v1/delete/719',
-	method: 'DELETE',
+	url: "https://jsonplaceholder.typicode.com/posts/1",
+	method: "DELETE",
 	headers: {
-		Accept: 'application/json',
-		'Accept-Charset': 'utf-8',
-		'User-Agent': 'my-reddit-client',
+		Accept: "application/json",
+		"Accept-Charset": "utf-8",
+		"User-Agent": "my-reddit-client",
 	},
 };
 
