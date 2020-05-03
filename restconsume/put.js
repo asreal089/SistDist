@@ -1,8 +1,8 @@
 const REQ = require('request');
 
 var alteracao = {
-	name: 'bruce banner',
-	job: 'Pesquisa Radiação Gama',
+	name: 'Hulk',
+	job: 'The Strongest avenger',
 };
 
 REQ.put(
