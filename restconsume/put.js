@@ -8,7 +8,7 @@ var alteracao = {
 REQ.put(
 	{
 		headers: { 'content-type': 'application/json' },
-		url: 'https://reqres.in/api/users/2',
+		url: 'https://reqres.in/api/users/960',
 		body: JSON.stringify(alteracao),
 	},
 	(error, response, body) => {
